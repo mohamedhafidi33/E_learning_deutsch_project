@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Auth',
 ]
 
 MIDDLEWARE = [
@@ -76,8 +77,10 @@ WSGI_APPLICATION = 'E_learning_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'ELP_DB',
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'E_LEARNING_PROJECT',
+        'USER': 'system',
+        'PASSWORD': 'Mhafidi2000',
     }
 }
 
