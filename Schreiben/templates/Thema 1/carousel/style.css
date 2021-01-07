@@ -1,0 +1,39 @@
+#loading{
+    position : fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff
+    url('https://i.imgur.com/FmYeL3j.gif')
+     no-repeat center ;
+    z-index:99999;
+
+
+}
+h1 {
+  color: black;
+  font-size:90px;
+  -webkit-text-fill-color:#FF5403;
+   /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+    font-family: arial ;
+}
+p{
+    font-size: 30px;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+}
+h2{
+    font-size:50px;
+
+}
+
+h3 {
+  color: black;
+  font-size:40px;
+  -webkit-text-fill-color: white;
+  -webkit-text-fill-width:10px;
+   /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: gray;
+    font-family: impact,fantasy ;
+}
