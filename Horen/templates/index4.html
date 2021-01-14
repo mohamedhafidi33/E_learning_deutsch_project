@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <link rel="shortcut icon" type="image/x-icon" href="../static/PICTURES/mini.png">
+    <title>Einfach Deutsch</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../static/Css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="../static/Javascript/correctio4.js"></script>
+    <style>
+           /* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8a710b; 
+}
+html {
+    --maxWidth: 1600px;
+    --gap: 3rem;
+    scrollbar-color: #666 #201c29;
+    background: #262626;
+    color: #fff;
+    overflow-x: hidden;
+}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+       figure {
+     margin: 0;
+     }
+     audio{
+      transition: all
+     }
+ .image-ronde{
+        width : 130px; height : 130px;
+        border: none;
+       -moz-border-radius : 75px;
+       -webkit-border-radius : 75px;
+        border-radius : 75px;
+      }
+      .gras_italique_serif {
+  font: bold italic large serif;
+  font-size: 80px;
+}
+      .p1 {
+  font-family: cursive;
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.vertical-line{
+        border-left: 5px solid #dbebfa;
+        display: inline-block;
+        height: 1000px;
+        margin: 0 20px;
+        position: absolute;
+        right: 250px
+      }
+.vertical-line1{
+        border-right: 5px solid #dbebfa;
+        display: inline-block;
+        height: 1000px;
+        margin: 0 20px;
+        position: absolute;
+        left: 250px
+      } 
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="../static/Css/carousel4.css" rel="stylesheet">
+  </head>
+  <body>
+    <span class="vertical-line"></span>
+    <span class="vertical-line1"></span>
+    
+     <!--main question  ========================== -->
+     <H1 class="gras_italique_serif"style="color:white"> ~KleiDung~ </H1>
+     <p>                             </p>
+     <p>                             </p>
+    <H3 class="p1" style="color:white">Erst!Hören Sie das Gespräch und antworten Sie</H3>
+    <p>                             </p>
+    
+   <!--inserer audio========================== -->
+    <audio controls preload="metadata" class="right" src="../static/AUDIO/Kleidung.mp3" type="audio/ogg">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+    
+    <!--lesss trois questionnss================================ -->
+    <!--Radio buttooonn ======================== -->
+    <p>                             </p>
+
+    <form name="quiz3" id="quiz3">  
+    <h4 class="p3"style="color:white">**F1:Wo kann Heidi die Boutique finden?</h4>
+      <div class="radio-group">
+      <!--1er choixxxxx================ -->
+      
+      <label class="radio">
+        <input type="radio" name="Wer9"value="1st Stock" >
+        A\  1st Stock
+        <span></span>
+      </label>
+
+      <!--2 eme choixxxxx============== -->
+       
+       <label class="radio">
+         <input type="radio" name="Wer9"value="zweiten Stock">
+        B\  zweiten Stock
+        <span></span>
+      </label>
+      <!--3 eme choixxxxxxx============ -->
+       <label class="radio">
+         <input type="radio" name="Wer9"value="3 Stock" >
+        C\  3en Stock
+        <span></span>
+      </label><p id="resulttttt" style="color:#7CFC00; font-size:33px; position: relative; left: 30px; bottom: 9px">
+      </div>
+    
+    <h4 class="p3"style="color:white">**F2:Welche Größe hat sie ? </h4>
+    <div class="radio-group">
+    
+      <!--1er choixxxxx================ -->
+      <label class="radio">
+        <input type="radio" name="Wer10"value="35" >
+        A\  35
+        <span></span>
+      </label >
+      <!--2 eme choixxxxx============== -->
+       <label class="radio">
+        <input type="radio" name="Wer10"value="38" >
+       B\  38
+        <span></span>
+      </label>
+      <!--3 eme choixxxxxxx============ -->
+       <label class="radio">
+        <input type="radio" name="Wer10"value="30" >
+       C\  30
+        <span></span>
+      </label><p id="result2222" style="color:#7CFC00; font-size:33px; position: relative; left: 30px; bottom: 9px">
+      </div> 
+     <h4 class="p3"style="color:white">**F3:Welche Schuhes Farbe möchtet sie?</h4>
+      <div class="radio-group">
+      <!--1er choixxxxx================ -->
+      
+      <label class="radio">
+        <input type="radio" name="Wer11"value="braun" >
+        A\  braun
+        <span></span>
+      </label>
+      <!--2 eme choixxxxx============== -->
+       
+       <label class="radio">
+         <input type="radio" name="Wer11"value="schwarz">
+        B\  schwarz
+        <span></span>
+      </label>
+      <!--3 eme choixxxxxxx============ -->
+       <label class="radio">
+         <input type="radio" name="Wer11"value="gelb" >
+       C\  gelb
+        <span></span>
+      </label><p id="result3333" style="color:#7CFC00; font-size:33px; position: relative; left: 30px; bottom: 9px">
+      </div>
+      <h4 class="p3"style="color:white">**F4: Was möchtet Heidi?  </h4>
+    <div class="radio-group">
+    
+      <!--1er choixxxxx================ -->
+      <label class="radio">
+        <input type="radio" name="Welche3"value="SommerKleid"  >A\
+         <img width="40" height="40" src="https://media.idkids.fr/media/productstorage/images/okaidi/0091185/thumbs/0142221_800.jpg" class="image-ronde"/>
+        <span></span></label >
+      
+      <!--2 eme choixxxxx============== -->
+       <label class="radio">
+         <input type="radio" name="Welche3"value="pullover" >B\
+        <img width="40" height="40" src="https://www.kastner-oehler.at/american+vintage-pullover-1-768_1024_75-7262075_1.jpg" class="image-ronde"/>
+        <span></span>
+      </label>
+      <!--3 eme choixxxxxxx============ -->
+       <label class="radio">
+        <input type="radio" name="Welche3"value="hose" >C\
+        <img width="50" height="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5q_OQsReqHb4hy36QwzR2LjnYZ2tj-T-GQ&usqp=CAU" class="image-ronde"/>
+        <span></span>
+      </label><p id="result4444" style="color:#7CFC00; font-size:33px; position: relative; left: 30px; bottom: 9px">
+    </div>
+    <p>                             </p>
+    <p>                             </p>
+    <p>                             </p>
+    <p>                             </p>
+    <p>                             </p>
+
+
+   
+<button type="button"; onclick="check()" ; style="color:#FFD733; border-radius: 50%; background-color: #555555;">Finish !</button>
+</form>
+   <p id="result3" style="color:#FFD733"></p>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Hören</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+      </div>
+
+        <div>
+        <img src="../static/PICTURES/simo4.png" width="80%" alt="logo">
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+<main>
+    <hr class="featurette-divider">
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 BGI Group&middot;</p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
