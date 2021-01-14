@@ -1,0 +1,34 @@
+body
+{
+    background-image: url(../image/greyzz.png);
+}
+.autreC{
+    color: red;
+}
+.titre
+{
+    padding: 30px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    border-top:3px red dotted ;
+    text-shadow : 5px 5px 5px royalblue;
+}
+.tab1
+{
+    margin-left: 250px;
+}
+.bei
+{
+    padding-top: 16px;
+    margin-left: 40px;
+}
+.hin
+{
+    color: red;
+    text-decoration: underline;
+}
+.acht
+{
+    margin-left: 20px;
+}
