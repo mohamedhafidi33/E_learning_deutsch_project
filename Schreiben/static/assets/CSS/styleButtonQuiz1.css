@@ -1,9 +1,11 @@
 
 .btn{
-  border: 1px solid #000000;
+  border: 1px solid white;
+  border-radius: 5px;
   background: none;
-  padding: 10px 20px;
-  font-size: 20px;
+  padding: 15px 30px;
+  font-size: 25px;
+  font-weight:500;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   margin: 10px;
@@ -21,7 +23,7 @@
   color: #fff;
 }
 .btn3:hover,.btn4:hover{
-  color: #3498db;
+  color: white;
 }
 .btn::before{
   content: "";
