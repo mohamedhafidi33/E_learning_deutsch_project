@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Deutsch Sprache</title>
+	<title>EINFACH DEUTSCH</title>
 	    {% load static %}
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="{% static 'login/images/icons/D.png' %}"/>
+	<link rel="icon" type="image/png" href="{% static 'login/images/icons/logodeursch.png' %}"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{% static 'login/vendor/bootstrap/css/bootstrap.min.css' %}">
 <!--===============================================================================================-->
@@ -30,29 +30,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css"> 
 </head>
-<body>
+<body style="background-color:orange;">
 	
 	
-	<div class="container-login100" style="background-image: url('images/deustch.jpg');">
+	<div class="container-login100" >
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
-			<form class="login100-form validate-form">
+			<form class="login100-form validate-form" method="POST">
+				{% csrf_token %}
 				<span class="login100-form-title p-b-37">
 					Sign In
 				</span>
-				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter username or email bitte">
-					<input class="input100" type="text" name="username" placeholder="Username or email">
+				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter username or email ">
+					<input required class="input100" type="text" name="username" placeholder="Username">
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password bitte">
-					<input class="input100" type="password" name="pass" placeholder="Password" id="password">
+				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password ">
+					<input required class="input100" type="password" name="password" placeholder="Password" id="password">
 					
 					<span class="focus-input100"></span>
 				</div>
 
 
 				<div class="container-login100-form-btn">
-					<button style="background-color:red; border-color:blue; color:white" class="login100-form-btn">
+					<button style="background-color:orange; border-color:blue; color:white" class="login100-form-btn">
 						Sign In
 					</button>
 				</div>
@@ -63,7 +64,7 @@
 					</span>
 				</div>
 				<div class="text-center">
-					<a href="#" class="txt2 hov1">
+					<a href="signup" class="txt2 hov1">
 						Sign Up
 					</a>
 				</div>
