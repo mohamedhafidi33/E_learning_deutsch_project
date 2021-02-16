@@ -38,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Auth',
+    'Schreiben',
+    'Gramatik',
+    'Lesen',
+    'Horen',
 ]
 
 MIDDLEWARE = [
@@ -76,8 +81,12 @@ WSGI_APPLICATION = 'E_learning_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'ELP_DB',
+        'ENGINE': 'django.db.backends.mysql',   #configuration database. we are working with MySQL as a SGBD
+        'NAME': 'project_django',
+        'USER': 'root',
+        'PASSWORD': 'Mhafidi2000:',
+        'HOST': '127.0.0.1',
+        'PORT':'3306',
     }
 }
 
