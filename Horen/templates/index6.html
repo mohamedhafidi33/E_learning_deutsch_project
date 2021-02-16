@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/PICTURES/mini.png">
+    <title>Einfach Deutsch</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../static/Css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="../static/Javascript/correctio6.js"></script>
+    <style>
+           /* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8a710b; 
+}
+html {
+    --maxWidth: 1600px;
+    --gap: 3rem;
+    scrollbar-color: #666 #201c29;
+    background: #262626;
+    color: #fff;
+    overflow-x: hidden;
+}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+       figure {
+     margin: 0;
+     }
+     audio{
+      transition: all
+     }
+      .image-ronde{
+        width : 130px; height : 130px;
+        border: none;
+       -moz-border-radius : 75px;
+       -webkit-border-radius : 75px;
+        border-radius : 75px;
+      }
+      .gras_italique_serif {
+  font: bold italic large serif;
+  font-size: 80px;
+}
+      .p1 {
+  font-family: cursive;
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.vertical-line{
+        border-left: 5px solid #dbebfa;
+        display: inline-block;
+        height: 1000px;
+        margin: 0 20px;
+        position: absolute;
+        right: 250px
+      }
+.vertical-line1{
+        border-right: 5px solid #dbebfa;
+        display: inline-block;
+        height: 1000px;
+        margin: 0 20px;
+        position: absolute;
+        left: 250px
+      } 
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../static/Css/carousel6.css" rel="stylesheet">
+  </head>
+  <body>
+     <span class="vertical-line"></span>
+    <span class="vertical-line1"></span>
+    
+     <!--main question  ========================== -->
+     <H1 class="gras_italique_serif"style="color:white"> ~UrLaub~ </H1>
+     <p>                             </p>
+     <p>                             </p>
+    <H3 class="p1" style="color:white">Erst!Hören Sie das Gespräch und antworten Sie</H3>
+    <p>                             </p>
+    
+   <!--inserer audio========================== -->
+    <audio controls preload="metadata" class="right" src="../static/AUDIO/Urlaub.mp3" type="audio/ogg">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+    
+    <!--lesss trois questionnss================================ -->
+    <!--Radio buttooonn ======================== -->
+    <p>                             </p>
+
+    <form name="quiz5" id="quiz5">  
+    <H3 class="p3"style="color:white">Wonach fliegt er? </H3>
+    <h4 class="p3"style="color:white">**F1: Im Januar?</h4>
+      <div class="radio-group">
+      <!--1er choixxxxx================ -->
+      
+      <label class="radio">
+        <input type="radio" name="Wer15"value="Afrika" >
+        A\  Afrika
+        <span></span>
+      </label>
+
+      <!--2 eme choixxxxx============== -->
+       
+       <label class="radio">
+         <input type="radio" name="Wer15"value="Amerika">
+        B\  Amerika
+        <span></span>
+      </label>
+      <!--3 eme choixxxxxxx============ -->
+       <label class="radio">
+         <input type="radio" name="Wer15"value="Österreich" >
+        C\  Österreich
+        <span></span>
+      </label><p id="resulttttttt" style="color:#7CFC00; font-size:33px; position: relative; left: 30px; bottom: 9px">
+      </div>
+    
+    <h4 class="p3"style="color:white">**F2:Im April ? </h4>
+    <div class="radio-group">
+    
+      <!--1er choixxxxx================ -->
+      <label class="radio">
+        <input type="radio" name="Wer16"value="Deutschland" >
+        A\  Deutschland
+        <span></span>
+      </label >
+      <!--2 eme choixxxxx============== -->
+       <label class="radio">
+        <input type="radio" name="Wer16"value="Indien" >
+       B\  Indien
+        <span></span>
+      </label>
+      <!--3 eme choixxxxxxx============ -->
+       <label class="radio">
+        <input type="radio" name="Wer16"value="Frankreich" >
+       C\  Frankreich
+        <span></span>
+      </label><p id="result222222" style="color:#7CFC00; font-size:33px; position: relative; left: 30px; bottom: 9px">
+      </div> 
+     <h4 class="p3"style="color:white">**F3:Im August ?</h4>
+      <div class="radio-group">
+      <!--1er choixxxxx================ -->
+      
+      <label class="radio">
+        <input type="radio" name="Wer17"value="Polen" >
+        A\  Polen
+        <span></span>
+      </label>
+      <!--2 eme choixxxxx============== -->
+       
+       <label class="radio">
+         <input type="radio" name="Wer17"value="Japan">
+        B\  Japan
+        <span></span>
+      </label>
+      <!--3 eme choixxxxxxx============ -->
+       <label class="radio">
+         <input type="radio" name="Wer17"value="Irland" >
+       C\  Irland
+        <span></span>
+      </label><p id="result333333" style="color:#7CFC00; font-size:33px; position: relative; left: 30px; bottom: 9px">
+      </div>
+      <h4 class="p3"style="color:white">**F4: Was besucht er in den USA im November?  </h4>
+    <div class="radio-group">
+    
+      <!--1er choixxxxx================ -->
+      <label class="radio">
+        <input type="radio" name="Welche5"value="MickeyMouse"  >A\
+         <img width="40" height="40" src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/01/skdfh84014-624x351.jpg" class="image-ronde"/>
+        <span></span></label >
+      
+      <!--2 eme choixxxxx============== -->
+       <label class="radio">
+         <input type="radio" name="Welche5"value="Central Park" >B\
+        <img width="40" height="40" src="https://image.newyorkcity.fr/wp-content/uploads/2013/02/Central-Park-300x225.jpg.webp" class="image-ronde"/>
+        <span></span>
+      </label>
+      <!--3 eme choixxxxxxx============ -->
+       <label class="radio">
+        <input type="radio" name="Welche5"value="Pont de Golde Gate" >C\
+        <img width="50" height="50" src="https://septmerveillesdumonde.com/images/golden-gate-bridge-m.jpg" class="image-ronde"/>
+        <span></span>
+      </label><p id="result444444" style="color:#7CFC00; font-size:33px; position: relative; left: 30px; bottom: 9px">
+    </div>
+    <p>                             </p>
+    <p>                             </p>
+    <p>                             </p>
+    <p>                             </p>
+    <p>                             </p>
+
+
+   
+<button type="button"; onclick="check()" ; style="color:#FFD733; border-radius: 50%; background-color: #555555;">Finish !</button>
+</form>
+   <p id="result5" style="color:#FFD733"></p>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Hören</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+      </div>
+
+        <div>
+        <img src="../static/PICTURES/simo4.png" width="80%" alt="logo">
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+
+<main>
+    <hr class="featurette-divider">
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 BGI Group&middot;</p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
