@@ -1,0 +1,50 @@
+
+li{ color: black;
+	text-align: center;
+	margin-left: 30px;
+}
+ol{
+	margin-top: 200px;
+	padding: 5px;
+   border-style:solid;
+   border-color:black;
+   border-left: 5px;
+}
+h5{
+	text-align: center;
+}
+h3{
+	color:blue;
+	text-align: center;
+	margin-bottom: 50px;
+}
+p{
+	margin-top: 80px;
+}
+.einfach{
+	margin-left: 800px;
+}
+.navbar-brand{
+	margin-bottom: 0.5px;
+}
+.section1{
+    text-align: center;
+    width:49vw;
+    float:left;
+    height:180vh;
+    border-right: 0.4vw solid #FF5403; 
+    margin:0;
+    padding:0; 
+  }
+  .section2{
+    width:49vw;
+    float:left;
+    height:180vh;
+    border-left: 0.4vw solid #FF5403;  
+    margin:0;
+}
+a{
+	margin-left: 300px;
+	align-items: center;
+	margin-top: 30px;
+}

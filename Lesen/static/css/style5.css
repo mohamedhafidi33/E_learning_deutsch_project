@@ -1,0 +1,122 @@
+.arriere{
+	background-repeat: no-repeat;
+}
+h1{
+/*color: black;
+ text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px orange;
+ font-style: italic;*/
+	text-align:center;
+	text-decoration:underline;  
+	font-size:20px;
+	
+	
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+h4{ 
+	margin-top: 20px;
+	color: black;
+ }
+p{  
+	font-family: "Georgia"
+	font-weight:bold;
+  border-width:2px;
+  padding: 5px;
+  border-style:solid;
+  border-color:black;
+  margin-top: 20px;
+  font-size: 17.5px;
+}
+h3{
+    color: blue;
+	text-align:center;
+	font-size:20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:35%;
+	border-width:2px;
+    padding: 5px;
+    border-style:solid;
+    border-color:black;
+}
+a{
+	color:black;
+	font-family;
+}
+header{
+	margin-bottom: 20px;
+}
+/*button{
+	font-size: 20px;
+	margin-left: 500px;
+	color:blue;
+	font-family: "Georgia"
+}*/
+.sujet{
+	text-decoration: center;
+}
+
+.button2{
+	font-size: 20px;
+	margin-left: 235px;
+	color:blue;
+	font-family: "Georgia"
+}
+.radio-inline1{
+	font-size: 20px;
+	margin-left: 500px;
+	color:blue;
+	font-family: "Georgia"
+	
+}
+.radio-inline2{
+	font-size: 20px;
+	margin-left: 235px;
+	color:blue;
+	font-family: "Georgia"
+}
+.something{
+	text-decoration:underline;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:35%;
+	border-width:2px;
+    padding: 5px;
+    border-style:solid;
+    border-color:black;
+
+}
+.einfach{
+	margin-right: 20px;
+}
+body{
+	border-width:2px;
+  padding: 5px;
+  /*border-style:solid;
+  border-color:black;*/
+	margin-top: 20px
+}
+input{
+	text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  float:left;
+  width: 25%;
+  padding: 10px;
+}
+
+
